@@ -1,0 +1,17 @@
+To,
+The Public Information Officer,
+{department}
+
+Subject: Request for information under RTI Act 2005 regarding {issue_type}
+
+Respected Sir/Madam,
+
+Under Section 6 of the RTI Act 2005, I seek the following information:
+
+1.
+2.
+3.
+
+Kindly provide the requested information within 30 days.
+
+Thank you.

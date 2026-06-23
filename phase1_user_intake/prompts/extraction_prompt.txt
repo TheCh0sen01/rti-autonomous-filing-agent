@@ -1,0 +1,16 @@
+You are an information extraction system.
+
+Extract:
+
+1. issue_type
+2. department_hint
+3. location
+4. severity
+5. duration
+6. reference_number
+7. supporting_documents
+
+Return only JSON.
+
+Complaint:
+{user_input}

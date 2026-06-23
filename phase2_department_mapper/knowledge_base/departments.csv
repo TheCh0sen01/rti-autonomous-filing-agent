@@ -1,0 +1,106 @@
+issue_type,department,pio_name,email,address
+ration card delay,Food Department,District Supply Officer,food@gov.in,District Collector Office
+ration card correction,Food Department,District Supply Officer,food@gov.in,District Collector Office
+new ration card,Food Department,District Supply Officer,food@gov.in,District Collector Office
+pds issue,Food Department,District Supply Officer,food@gov.in,District Collector Office
+fair price shop complaint,Food Department,District Supply Officer,food@gov.in,District Collector Office
+food subsidy issue,Food Department,District Supply Officer,food@gov.in,District Collector Office
+water connection delay,Water Board,Water Supply Officer,water@gov.in,Metro Water Office
+water leakage,Water Board,Water Supply Officer,water@gov.in,Metro Water Office
+water contamination,Water Board,Water Supply Officer,water@gov.in,Metro Water Office
+sewage overflow,Water Board,Water Supply Officer,water@gov.in,Metro Water Office
+drain blockage,Water Board,Water Supply Officer,water@gov.in,Metro Water Office
+low water pressure,Water Board,Water Supply Officer,water@gov.in,Metro Water Office
+no water supply,Water Board,Water Supply Officer,water@gov.in,Metro Water Office
+streetlight not working,Municipal Corporation,City Engineer,municipal@gov.in,Corporation Office
+garbage not collected,Municipal Corporation,Sanitation Officer,municipal@gov.in,Corporation Office
+road pothole,Municipal Corporation,City Engineer,municipal@gov.in,Corporation Office
+road repair,Municipal Corporation,City Engineer,municipal@gov.in,Corporation Office
+drainage issue,Municipal Corporation,City Engineer,municipal@gov.in,Corporation Office
+water logging,Municipal Corporation,City Engineer,municipal@gov.in,Corporation Office
+public toilet issue,Municipal Corporation,Health Officer,municipal@gov.in,Corporation Office
+dog menace,Municipal Corporation,Animal Control Officer,municipal@gov.in,Corporation Office
+mosquito issue,Municipal Corporation,Health Officer,municipal@gov.in,Corporation Office
+illegal construction,Municipal Corporation,Building Inspector,municipal@gov.in,Corporation Office
+property tax issue,Municipal Corporation,Tax Officer,municipal@gov.in,Corporation Office
+birth certificate issue,Municipal Corporation,Registrar,municipal@gov.in,Corporation Office
+death certificate issue,Municipal Corporation,Registrar,municipal@gov.in,Corporation Office
+power cut,Electricity Board,EB Officer,electricity@gov.in,Electricity Board Office
+wrong electricity bill,Electricity Board,EB Officer,electricity@gov.in,Electricity Board Office
+new electricity connection,Electricity Board,EB Officer,electricity@gov.in,Electricity Board Office
+meter issue,Electricity Board,EB Officer,electricity@gov.in,Electricity Board Office
+transformer issue,Electricity Board,EB Officer,electricity@gov.in,Electricity Board Office
+voltage fluctuation,Electricity Board,EB Officer,electricity@gov.in,Electricity Board Office
+street power issue,Electricity Board,EB Officer,electricity@gov.in,Electricity Board Office
+land records update,Revenue Department,Tahsildar,revenue@gov.in,Taluk Office
+patta transfer,Revenue Department,Tahsildar,revenue@gov.in,Taluk Office
+survey issue,Revenue Department,Tahsildar,revenue@gov.in,Taluk Office
+mutation issue,Revenue Department,Tahsildar,revenue@gov.in,Taluk Office
+encumbrance certificate,Revenue Department,Tahsildar,revenue@gov.in,Taluk Office
+property ownership issue,Revenue Department,Tahsildar,revenue@gov.in,Taluk Office
+income certificate delay,Revenue Department,Tahsildar,revenue@gov.in,Taluk Office
+community certificate delay,Revenue Department,Tahsildar,revenue@gov.in,Taluk Office
+residence certificate issue,Revenue Department,Tahsildar,revenue@gov.in,Taluk Office
+scholarship delay,Education Department,Education Officer,education@gov.in,Education Office
+marksheet correction,Education Department,Education Officer,education@gov.in,Education Office
+certificate issue,Education Department,Education Officer,education@gov.in,Education Office
+fee reimbursement,Education Department,Education Officer,education@gov.in,Education Office
+school transfer certificate,Education Department,Education Officer,education@gov.in,Education Office
+teacher complaint,Education Department,Education Officer,education@gov.in,Education Office
+college admission issue,Education Department,Education Officer,education@gov.in,Education Office
+driving license delay,Transport Department,RTO Officer,transport@gov.in,RTO Office
+vehicle registration delay,Transport Department,RTO Officer,transport@gov.in,RTO Office
+rc transfer issue,Transport Department,RTO Officer,transport@gov.in,RTO Office
+permit issue,Transport Department,RTO Officer,transport@gov.in,RTO Office
+driving test issue,Transport Department,RTO Officer,transport@gov.in,RTO Office
+vehicle tax issue,Transport Department,RTO Officer,transport@gov.in,RTO Office
+public transport complaint,Transport Department,RTO Officer,transport@gov.in,RTO Office
+FIR delay,Police Department,Police Inspector,police@gov.in,Police Station
+passport verification delay,Police Department,Police Inspector,police@gov.in,Police Station
+police complaint inaction,Police Department,Police Inspector,police@gov.in,Police Station
+verification pending,Police Department,Police Inspector,police@gov.in,Police Station
+NOC issue,Police Department,Police Inspector,police@gov.in,Police Station
+cyber complaint delay,Police Department,Cyber Officer,police@gov.in,Cyber Cell
+hospital negligence,Health Department,Medical Officer,health@gov.in,Government Hospital
+medicine shortage,Health Department,Medical Officer,health@gov.in,Government Hospital
+ambulance issue,Health Department,Medical Officer,health@gov.in,Government Hospital
+health card issue,Health Department,Medical Officer,health@gov.in,Government Hospital
+doctor absence,Health Department,Medical Officer,health@gov.in,Government Hospital
+vaccination issue,Health Department,Medical Officer,health@gov.in,Government Hospital
+pension delay,Welfare Department,Welfare Officer,welfare@gov.in,Welfare Office
+widow pension,Welfare Department,Welfare Officer,welfare@gov.in,Welfare Office
+old age pension,Welfare Department,Welfare Officer,welfare@gov.in,Welfare Office
+disability pension,Welfare Department,Welfare Officer,welfare@gov.in,Welfare Office
+social welfare benefit,Welfare Department,Welfare Officer,welfare@gov.in,Welfare Office
+housing scheme issue,Housing Board,Housing Officer,housing@gov.in,Housing Board Office
+pmay issue,Housing Board,Housing Officer,housing@gov.in,Housing Board Office
+housing allotment delay,Housing Board,Housing Officer,housing@gov.in,Housing Board Office
+gas connection delay,Petroleum Department,Gas Officer,petroleum@gov.in,Gas Agency Office
+lpg subsidy issue,Petroleum Department,Gas Officer,petroleum@gov.in,Gas Agency Office
+aadhaar correction,UIDAI,Aadhaar Officer,uidai@gov.in,Aadhaar Center
+aadhaar not linked,UIDAI,Aadhaar Officer,uidai@gov.in,Aadhaar Center
+pan card delay,Income Tax Department,PAN Officer,incometax@gov.in,Income Tax Office
+pan correction,Income Tax Department,PAN Officer,incometax@gov.in,Income Tax Office
+passport delay,Passport Office,Passport Officer,passport@gov.in,Passport Office
+visa issue,Passport Office,Passport Officer,passport@gov.in,Passport Office
+bank grievance,Banking Ombudsman,Bank Officer,bank@gov.in,Bank Office
+atm complaint,Banking Ombudsman,Bank Officer,bank@gov.in,Bank Office
+loan processing delay,Banking Ombudsman,Bank Officer,bank@gov.in,Bank Office
+insurance claim delay,Insurance Department,Insurance Officer,insurance@gov.in,Insurance Office
+crop insurance issue,Agriculture Department,Agriculture Officer,agri@gov.in,Agriculture Office
+fertilizer shortage,Agriculture Department,Agriculture Officer,agri@gov.in,Agriculture Office
+farmer subsidy delay,Agriculture Department,Agriculture Officer,agri@gov.in,Agriculture Office
+crop damage compensation,Agriculture Department,Agriculture Officer,agri@gov.in,Agriculture Office
+internet complaint,Telecom Department,Telecom Officer,telecom@gov.in,Telecom Office
+mobile network issue,Telecom Department,Telecom Officer,telecom@gov.in,Telecom Office
+broadband issue,Telecom Department,Telecom Officer,telecom@gov.in,Telecom Office
+court case delay,Judiciary,Court Clerk,judiciary@gov.in,District Court
+consumer complaint,Consumer Forum,Consumer Officer,consumer@gov.in,Consumer Court
+railway complaint,Railways,Railway Officer,railway@gov.in,Railway Station
+train refund issue,Railways,Railway Officer,railway@gov.in,Railway Station
+airport complaint,Aviation Department,Aviation Officer,aviation@gov.in,Airport Office
+pollution complaint,Pollution Control Board,PCB Officer,pcb@gov.in,PCB Office
+noise pollution,Pollution Control Board,PCB Officer,pcb@gov.in,PCB Office
+factory pollution,Pollution Control Board,PCB Officer,pcb@gov.in,PCB Office
+forest encroachment,Forest Department,Forest Officer,forest@gov.in,Forest Office
+wildlife complaint,Forest Department,Forest Officer,forest@gov.in,Forest Office
