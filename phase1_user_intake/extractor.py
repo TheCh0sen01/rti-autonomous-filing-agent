@@ -1,11 +1,14 @@
 import json
-import re
-from langchain_community.llms import Ollama
+import os
+from google import genai
+from dotenv import load_dotenv
+load_dotenv()
 
-llm = Ollama(model="qwen3:8b")
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 
 def extract_issue(text):
+
     prompt = f"""
 You are an expert government complaint analyzer.
 
@@ -36,51 +39,27 @@ Department mapping hints:
 
 Example:
 {{
-    "issue_type": "ration card delay",
-    "department_hint": "Food Department",
+    "issue_type": "water_supply",
+    "department_hint": "Water Board",
     "location": "Chennai",
-    "severity": "High",
-    "confidence": 0.85
+    "severity": "high",
+    "confidence": 0.95
 }}
 
 Complaint:
 {text}
 """
 
-    response = llm.invoke(prompt)
+    response = client.models.generate_content(
+        model="gemini-3.6-flash",
+        contents=prompt
+    )
 
-    print("RAW RESPONSE:", response)
+    response_text = response.text.strip()
 
-    # Try direct JSON parsing
     try:
-        return json.loads(response)
-
-    except Exception:
-        pass
-
-    # Extract JSON block if model adds extra text
-    try:
-        match = re.search(r'\{.*\}', response, re.DOTALL)
-        if match:
-            cleaned_json = match.group()
-
-            # Fix common missing comma issues
-            cleaned_json = re.sub(
-                r'"\s*\n\s*"',
-                '",\n"',
-                cleaned_json
-            )
-
-            return json.loads(cleaned_json)
-
-    except Exception:
-        pass
-
-    # Final fallback
-    return {
-        "issue_type": text,
-        "department_hint": "Unknown",
-        "location": "Not Provided",
-        "severity": "Medium",
-        "confidence": 0.5
-    }
+        return json.loads(response_text)
+    except json.JSONDecodeError:
+        print("Gemini returned invalid JSON:")
+        print(response_text)
+        return None

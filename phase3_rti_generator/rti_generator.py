@@ -1,15 +1,19 @@
 import os
-from langchain_community.llms import Ollama
+from dotenv import load_dotenv
+from google import genai
 import chromadb
 
-llm = Ollama(model="qwen3:8b")
+load_dotenv()
+
+client_gemini = genai.Client(
+    api_key=os.getenv("GEMINI_API_KEY")
+)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 db_path = os.path.join(BASE_DIR, "db")
 
 client = chromadb.PersistentClient(path=db_path)
 collection = client.get_or_create_collection("rti_laws")
-
 
 def generate_rti(issue_data, contact_data, user_details):
 
@@ -91,4 +95,9 @@ Address:
 Generate the final RTI exactly in official letter format.
 """
 
-    return llm.invoke(prompt)
+    response = client_gemini.models.generate_content(
+        model="gemini-3.6-flash",
+        contents=prompt
+    )
+
+    return response.text

@@ -6,3 +6,4 @@ token.json
 outputs/
 models/
 *.log
+phase5_filing/credentials/
