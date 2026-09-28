@@ -1,31 +1,36 @@
-langchain==1.4.2
-langchain-community==0.4.2
-chromadb==1.5.9
-sentence-transformers==6.1.0
-ollama==0.6.2
+# langchain==1.4.2
+# langchain-community==0.4.2
+# chromadb==1.5.9
+# sentence-transformers==6.1.0
+# ollama==0.6.2
 
-openai-whisper==20250625
-langdetect==1.0.9
+# openai-whisper==20250625
+# langdetect==1.0.9
 
-torch==2.14.0
-numpy==2.2.6
+# torch==2.14.0
+# numpy==2.2.6
 
-streamlit==1.64.0
+# streamlit==1.64.0
 
-reportlab==5.0.1
-python-docx==1.2.0
-pypdf==6.19.0
+# reportlab==5.0.1
+# python-docx==1.2.0
+# pypdf==6.19.0
 
-google-api-python-client==2.200.0
-google-auth==2.58.1
+# google-api-python-client==2.200.0
+# google-auth==2.58.1
+# google-genai
+# google-auth-oauthlib==1.4.1
+# google-auth-httplib2==0.4.2
+# httplib2==0.32.0
+# python-dotenv==1.2.2
+
+# playwright==1.63.0
+# APScheduler==3.11.3
+
+# pandas==2.3.3
+# matplotlib==3.10.9
+
+streamlit==1.58.0
 google-genai
-google-auth-oauthlib==1.4.1
-google-auth-httplib2==0.4.2
-httplib2==0.32.0
 python-dotenv==1.2.2
-
-playwright==1.63.0
-APScheduler==3.11.3
-
-pandas==2.3.3
-matplotlib==3.10.9
+chromadb==1.5.9
